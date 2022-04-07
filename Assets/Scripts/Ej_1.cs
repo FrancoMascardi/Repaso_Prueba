@@ -16,14 +16,12 @@ public class Ej_1 : MonoBehaviour
         {
             Debug.Log(" num1 es menor a num2");
           }
-        else if (num1 > num2)
+        else  
         {
-            Debug.Log("num1 es mayor a num2");
+            Debug.Log(" No son iguales");
         }
-        else if (num1 == num2)
-        {
-            Debug.Log("Ambos numeros son iguales");
-        }
+        
+        
     }
 
     // Update is called once per frame
